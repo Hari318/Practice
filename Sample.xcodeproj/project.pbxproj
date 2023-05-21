@@ -16,6 +16,8 @@
 		47AD47672A07FBE500BBBFA6 /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AD47662A07FBE500BBBFA6 /* SampleTests.swift */; };
 		47AD47712A07FBE500BBBFA6 /* SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AD47702A07FBE500BBBFA6 /* SampleUITests.swift */; };
 		47AD47732A07FBE500BBBFA6 /* SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AD47722A07FBE500BBBFA6 /* SampleUITestsLaunchTests.swift */; };
+		47AD47802A0B730900BBBFA6 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AD477F2A0B730900BBBFA6 /* Singleton.swift */; };
+		47AD47822A189CFB00BBBFA6 /* DependencyComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AD47812A189CFB00BBBFA6 /* DependencyComposition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		47AD476C2A07FBE500BBBFA6 /* SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47AD47702A07FBE500BBBFA6 /* SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITests.swift; sourceTree = "<group>"; };
 		47AD47722A07FBE500BBBFA6 /* SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		47AD477F2A0B730900BBBFA6 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		47AD47812A189CFB00BBBFA6 /* DependencyComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyComposition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				47AD47582A07FBE500BBBFA6 /* Assets.xcassets */,
 				47AD475A2A07FBE500BBBFA6 /* LaunchScreen.storyboard */,
 				47AD475D2A07FBE500BBBFA6 /* Info.plist */,
+				47AD477F2A0B730900BBBFA6 /* Singleton.swift */,
+				47AD47812A189CFB00BBBFA6 /* DependencyComposition.swift */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				47AD47542A07FBE400BBBFA6 /* ViewController.swift in Sources */,
+				47AD47802A0B730900BBBFA6 /* Singleton.swift in Sources */,
 				47AD47502A07FBE400BBBFA6 /* AppDelegate.swift in Sources */,
 				47AD47522A07FBE400BBBFA6 /* SceneDelegate.swift in Sources */,
+				47AD47822A189CFB00BBBFA6 /* DependencyComposition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
